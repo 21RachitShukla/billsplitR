@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">billsplitR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="interstitial">ca-app-pub-6464793630486269/1045185640</string>
+    <string name="banner">ca-app-pub-6464793630486269/5682009629</string>
+
+</resources>

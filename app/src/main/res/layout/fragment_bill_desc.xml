@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragDesc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragments.BillDesc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="@dimen/fab_margin"
+            app:cardElevation="@dimen/fab_margin">
+
+            <TextView
+                android:id="@+id/billName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:shadowColor="@color/colorPrimaryDark3"
+                android:shadowDx="6"
+                android:shadowDy="6"
+                android:shadowRadius="6"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="32sp" />
+
+        </android.support.v7.widget.CardView>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:hint="Description: "
+            app:met_baseColor="#000"
+            app:met_errorColor="#ff0f00"
+            app:met_maxCharacters="50"
+            app:met_minCharacters="0"
+            app:met_primaryColor="@color/colorPrimary3"
+            app:met_underlineColor="@color/colorPrimaryDark3" />
+    </LinearLayout>
+
+</FrameLayout>
